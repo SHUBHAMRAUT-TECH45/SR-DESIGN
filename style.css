@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #ff004f,
+        #ff6a00,
+        #ffcc00,
+        #7b2ff7,
+        #00c6ff
+    );
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+@keyframes gradientBG{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: yellow;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 8px black;
+}
+
+h2,h3,p,li{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background: #b30000;
+    color: white;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 450px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.contact-btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+.contact-btn:hover{
+    transform:scale(1.05);
+}
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.gallery img{
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}.gallery img{
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}

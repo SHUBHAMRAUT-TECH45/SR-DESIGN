@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR DESIGN</title>
+</head>
+<body>
+
+    <h1>🎨 SR DESIGN</h1>
+
+    <h2>Professional Banner & Graphic Design Services</h2>
+
+    <hr>
+
+    <h3>About Us</h3>
+    <p>
+        SR DESIGN provides professional banner, flex, social media post,
+        birthday, wedding and business advertisement designs.
+    </p>
+
+    <h3>Our Services</h3>
+    <ul>
+        <li>Birthday Banner - ₹99</li>
+        <li>Flex Banner - ₹149</li>
+        <li>Political Banner - ₹199</li>
+        <li>Social Media Post - ₹49</li>
+        <li>Wedding Banner - ₹149</li>
+    </ul>
+
+    <h3>Special Offer</h3>
+    <p>🔥 3 Banner Designs = ₹249</p>
+    <p>🔥 5 Banner Designs = ₹399</p>
+
+    <h3>Contact</h3>
+    <p>WhatsApp: Your Number</p>
+    <p>Email: yourmail@gmail.com</p>
+
+</body>
+</html>
