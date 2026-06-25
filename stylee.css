@@ -136,3 +136,20 @@ padding:30px 20px;
 h2{
 margin-bottom:15px;
 }
+.topline{
+margin:10px 0;
+font-size:18px;
+color:#00e5ff;
+font-weight:bold;
+}
+
+.about,
+.services,
+.gallery,
+.section{
+padding:30px 20px;
+}
+
+h2{
+margin-bottom:15px;
+}
