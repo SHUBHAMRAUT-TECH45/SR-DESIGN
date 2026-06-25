@@ -1,4 +1,16 @@
+.topline{
+font-size:18px;
+color:#00e5ff;
+margin-bottom:20px;
+font-weight:bold;
+letter-spacing:1px;
+}
 
+.hero h3{
+font-size:22px;
+color:white;
+margin-bottom:10px;
+}
 *{
 margin:0;
 padding:0;
