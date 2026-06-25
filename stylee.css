@@ -25,13 +25,14 @@ min-height:100vh;
 }
 
 .hero{
-min-height:100vh;
+padding:40px 20px;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:20px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
 }
 
 .profile{
@@ -117,4 +118,21 @@ background:#020617;
 padding:20px;
 text-align:center;
 margin-top:40px;
+}
+.topline{
+margin:10px 0;
+font-size:18px;
+color:#00e5ff;
+font-weight:bold;
+}
+
+.about,
+.services,
+.gallery,
+.section{
+padding:30px 20px;
+}
+
+h2{
+margin-bottom:15px;
 }
